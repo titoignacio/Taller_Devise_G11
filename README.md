@@ -1,6 +1,8 @@
 # Taller DEVISE
 ## Autenticación con Devise
 
+[Link Github](https://github.com/DesafioLatam/Taller_Devise_G11)
+
 El objetivo de esta actividad es la implementación de un Sistema de autenticación con Devise para permitir el ingreso de un usuario en una aplicación.
 
 Realize Fork al proyecto y cuando termine suba sus cambios y  deje el  enlace dentro de la plataforma Empieza.
