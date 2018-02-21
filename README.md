@@ -3,13 +3,15 @@
 
 [Link Github](https://github.com/DesafioLatam/Taller_Devise_G11)
 
-El objetivo de esta actividad es la implementación de un Sistema de autenticación con Devise para permitir el ingreso de un usuario en una aplicación.
+El objetivo de esta actividad es la implementación de un Sistema de autenticación con **Devise** para permitir el ingreso de un usuario en una aplicación.
 
 Realize Fork al proyecto y cuando termine suba sus cambios y  deje el  enlace dentro de la plataforma Empieza.
 
+Es la misma aplicación que utilizaste cuando hiciste autenticación desde 0.
+
 ## Setup:
 
-Al interior de este proyecto se utilizó una gema llamada carrierwave para el manejo de archivos, para que pueda funcionar,  antes de empezar tendrás que instalar imagemagik en tu computador. Si ya lo has instalado antes, omite este paso.
+La aplicación tiene algunas gemas ya incorporadas,  por lo que antes de empezar tendrás que instalar imagemagik en tu computador. Si ya lo has instalado antes, omite este paso.
 
 Para saber si ya está instalado vamos a escribir:
 
@@ -35,7 +37,22 @@ sudo apt-get update
 sudo apt-get install imagemagick
 ~~~
 
-Más información en <a href="https://github.com/carrierwaveuploader/carrierwave/tree/v1.1.0">Documentación carrierwave</a>
+
+-----------
+
+Cuando ya  tengas instalado imageMagik, continua abriendo tu proyecto. Deberas ejecutar los siguientes pasos en la consola, para que se pueda abrir.
+
+~~~
+bundle install
+~~~
+
+y luego corre una migración: 
+
+~~~
+Rails db:migrate
+~~~
+
+
 
 ## Comienza la actividad
 
